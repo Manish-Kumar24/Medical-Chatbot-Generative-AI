@@ -1,0 +1,13 @@
+sentence-transformers==2.2.2
+langchain
+flask
+pypdf
+python-dotenv
+pinecone-client[grpc]
+langchain-pinecone
+langchain_community
+langchain_experimental
+transformers  # For Hugging Face transformers models
+torch  # For PyTorch (needed by Hugging Face models)
+faiss-cpu  # For FAISS if you're using CPU
+-e .
